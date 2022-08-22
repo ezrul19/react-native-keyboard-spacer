@@ -8,10 +8,10 @@ import {
   LayoutAnimation,
   View,
   Dimensions,
-  ViewPropTypes,
   Platform,
   StyleSheet
 } from 'react-native';
+const { ViewPropTypes } = require('deprecated-react-native-prop-types');
 
 const styles = StyleSheet.create({
   container: {
